@@ -18,9 +18,10 @@ function App() {
         <Route path="/" Component={HomePage} />
         <Route path="/kelas" Component={KelasPage} />
         <Route path="/testimonial" Component={TestimonalPage} />
-        <Route path="/" Component={FaqPage} />
-        <Route path="/" Component={SyaratKetentuanPage} />
+        <Route path="/faq" Component={FaqPage} />
+        <Route path="/syaratketen" Component={SyaratKetentuanPage} />
       </Routes>
+
     <FooterComponent/>
   </>
   )

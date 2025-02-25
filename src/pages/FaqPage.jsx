@@ -1,8 +1,11 @@
 import React from 'react'
+import FaqComponent from '../component/FaqComponent'
 
 const FaqPage = () => {
   return (
-    <div>FaqPage</div>
+    <div className='pt-5'>
+      <FaqComponent/>
+    </div>
   )
 }
 
